@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -6,7 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("HomePage"),
+        title: const Text("Home Page"),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -21,10 +23,10 @@ class HomePage extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              // Modular.to.navigate('/');
+              Modular.to.navigate('/');
             },
             child: const Text(
-              'next Page',
+              'Auth Page',
               textAlign: TextAlign.center,
             ),
           )
