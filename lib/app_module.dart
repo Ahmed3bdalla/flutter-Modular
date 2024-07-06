@@ -10,6 +10,6 @@ class AppModule extends Module {
   void routes(RouteManager r) {
     // r.module('/', module: SplashModule());
     r.module('/', module: AuthModule());
-    r.module('/home', module: HomeModule());
+    r.module('/home/', module: HomeModule());
   }
 }

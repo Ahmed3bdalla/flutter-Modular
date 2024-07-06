@@ -23,7 +23,7 @@ class AuthPage extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              Modular.to.navigate('/home');
+              Modular.to.navigate('/home/');
             },
             child: const Text(
               'Home page',

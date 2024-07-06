@@ -1,2 +1,2 @@
 library home;
-export 'presentation/home_module.dart';
+export 'home_module.dart';
